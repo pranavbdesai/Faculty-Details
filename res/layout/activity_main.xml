@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/myLayout"
+             android:stretchColumns="0"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="30dp"
+		    android:layout_y="50dp"
+		    android:text="FacultyID" />
+
+		<EditText
+		    android:id="@+id/Facultyid"
+		    android:layout_width="150dp"
+		    android:layout_height="40dp"
+		    android:layout_x="150dp"
+		    android:layout_y="50dp"
+		    android:inputType="number" />
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="30dp"
+		    android:layout_y="100dp"
+		    android:text="FacultyName" />
+
+		<EditText android:id="@+id/Facultyname"	 
+				  android:inputType="text"	 
+				  android:layout_x="150dp"
+				  android:layout_y="100dp"
+		          android:layout_width="150dp"
+		          android:layout_height="40dp"/>
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="30dp"
+		    android:layout_y="150dp"
+		    android:text="ContactNo" />
+
+		<EditText
+		    android:id="@+id/Contactno"
+		    android:layout_width="150dp"
+		    android:layout_height="40dp"
+		    android:layout_x="150dp"
+		    android:layout_y="150dp"
+		    android:inputType="number" />
+
+		<Button
+		    android:id="@+id/btnAdd"
+		    android:layout_width="100dp"
+		    android:layout_height="40dp"
+		    android:layout_x="30dp"
+		    android:layout_y="200dp"
+		    android:text="Add" />
+
+		<Button
+		    android:id="@+id/btnDelete"
+		    android:layout_width="100dp"
+		    android:layout_height="40dp"
+		    android:layout_x="150dp"
+		    android:layout_y="200dp"
+		    android:text="Delete" />
+
+		<Button
+		    android:id="@+id/btnShowInfo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_x="152dp"
+		    android:layout_y="252dp"
+		    android:text="show_info" />
+
+		<Button
+		    android:id="@+id/btnViewAll"
+		    android:layout_width="100dp"
+		    android:layout_height="40dp"
+		    android:layout_x="36dp"
+		    android:layout_y="253dp"
+		    android:text="view_all" />
+
+</AbsoluteLayout>
